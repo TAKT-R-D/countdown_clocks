@@ -1,0 +1,52 @@
+header {
+  padding: 1rem 1rem 1rem 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+h1 {
+  font-size: var(--font-large-size);
+  margin-left: 2rem;
+}
+footer {
+  font-size: var(--font-small-size);
+  padding: 1rem;
+  margin: auto;
+}
+.poweredby {
+  margin: auto;
+}
+.poweredby ul {
+  display: flex;
+  align-items: center;
+}
+.poweredby ul li {
+  //margin: 0 1rem;
+  padding: 0 1rem;
+  font-size: var(--font-small-size);
+}
+.poweredby li + li {
+  border-left: 1px solid var(--color-dark);
+}
+.noodleImage {
+  width: 500px;
+}
+
+.abtn {
+  width: 20rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: var(--color-light);
+  background-color: transparent;
+  padding: 1rem 2rem;
+  border: 1px solid var(--color-dark);
+  border-radius: 999rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .noodleImage {
+    width: 90%;
+  }
+}
